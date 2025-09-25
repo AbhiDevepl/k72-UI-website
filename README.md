@@ -75,8 +75,8 @@ It serves as a **portfolio/agency website** for *Soixante Douze* (a creative age
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/AbhiDevepl/k72-UI-website.git
+   cd k72-UI-website
    ```
 
 2. **Install dependencies**
