@@ -1,4 +1,3 @@
-Here’s your Markdown cleaned up, with proper code block endings and consistent formatting:
 
 ````markdown
 # Soixante Douze – Creative Agency Portfolio
