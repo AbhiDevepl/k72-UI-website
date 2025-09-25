@@ -1,5 +1,6 @@
+Here’s your Markdown cleaned up, with proper code block endings and consistent formatting:
 
-```markdown
+````markdown
 # Soixante Douze – Creative Agency Portfolio
 
 This is a **React application** built with **Vite**, using **React Router** for routing, **GSAP** (with ScrollTrigger) for animations, and **Tailwind CSS** for styling.  
@@ -29,29 +30,54 @@ It serves as a **portfolio/agency website** for *Soixante Douze* (a creative age
 - ߔ Page routing with React Router.  
 - ߎ GSAP animations (ScrollTrigger for scroll-based effects).  
 - ߓ Organized components for reusability (Navbar, FullScreenNav, project cards, etc.).  
-- ߌ External assets loaded from [k72.ca](https://k72.ca/).  
+.  
 
 ---
 
 ## ߗ Project Structure
-```
+
+```plaintext
+.
+├── public/                  # Static assets
+│   ├── video.mp4            # Hero/background video
+│   ├── fonts/               # Font files
+│   └── images/              # Image assets
+│
+├── src/
+│   ├── components/          # Reusable components
+│   │   ├── Navigation/      # Navbar, FullScreenNav
+│   │   ├── Home/            # Video, HomeHeroText, HomeBottomText
+│   │   └── Projects/        # Project cards
+│   │
+│   ├── pages/               # Main pages (Home, Agence, Projects)
+│   ├── context/             # NavContext (navigation state)
+│   ├── App.jsx              # Main router setup
+│   └── main.jsx             # App entry point
+│
+├── index.html               # Root HTML file
+├── package.json             # Project dependencies & scripts
+└── tailwind.config.js       # Tailwind CSS configuration
+````
 
 ---
- Technologies
-- [React](https://react.dev/) – UI framework  
-- [Vite](https://vitejs.dev/) – Build tool  
-- [React Router](https://reactrouter.com/) – Routing  
-- [GSAP](https://greensock.com/gsap/) – Animations  
-- [Tailwind CSS](https://tailwindcss.com/) – Styling  
+ 
+## Technologies
+* [React](https://react.dev/) – UI framework
+* [Vite](https://vitejs.dev/) – Build tool
+* [React Router](https://reactrouter.com/) – Routing
+* [GSAP](https://greensock.com/gsap/) – Animations
+* [Tailwind CSS](https://tailwindcss.com/) – Styling
 
 ---
 
 ## ⚙️ Setup & Installation
+
 1. **Clone the repo**
+
    ```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
-````
+   ```
 
 2. **Install dependencies**
 
@@ -76,11 +102,5 @@ It serves as a **portfolio/agency website** for *Soixante Douze* (a creative age
    ```bash
    npm run preview
    ```
-
----
-
-## ߓ Notes
-* Ensure `public/` contains required video/fonts for local development.
-* Original `README.md` from Vite was expanded to include project documentation.
 
 ---
